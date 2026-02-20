@@ -1,0 +1,158 @@
+SURYA TEJA JAKKA 
+sj888@nau.edu | (928) 863 -9423 | https://www.linkedin.com/in/sjakka14/ 
+ 
+OBJECTIVE 
+Accomplished embedded systems engineer specializing in end-to-end IoT product development , with a 
+track record of taking systems from concept and breadboard prototypes to robust, field -deployable hardware 
+and firmware. Experienced in architecting low-power wireless sensor networks , designing custom dual -
+PCB dataloggers, and implementing reliable LoRa -based mesh communication for long -range, intermittent -
+connectivity environments. Adept at integrating heterogeneous sensors, building resilient data acquisition 
+pipelines that process 50,000+ time -series measurements daily , and enforcing stringen t calibration and 
+validation standards derived from precision metrology practices. 
+Brings deep hands -on expertise with ESP32 and microcontroller -based systems , including real -time data 
+acquisition, power budgeting, ADC optimization, and persistent storage management on SD and similar 
+media. Combines hardware design and embedded C/C++ firmware development with edge ML 
+capabilities , having deployed TensorFlow Lite models on microcontrollers to deliver sub-50ms anomaly 
+detection with production -grade precision and recall on environmental sensor data. Demonstrated ability to 
+operate across the full IoT stack: PCB design, embedded software, wireless communication, sensor fusion, 
+and data pipelines consuming hundreds of thousands of sensor records per week. 
+Excels in cross -functional, research -driven environments , collaborating with ecologists, climate 
+scientists, and engineers to translate domain constraints into practical, maintainable IoT solutions for long -
+term field deployments. Known for an optimization mindset —achieving <50mA average current draw 
+and 3+ months autonomous solar -powered operation —and for building systems with measurable 
+reliability targets such as 95%+ packet delivery and 99.5%+ data consistency across power cycles. 
+Seeking a full -time IoT / Embedded Systems Engineer role where this combination of hardware -software 
+integration, low -power wireless design, and edge intelligence can drive real -world, production -grade 
+connected devices at scale. 
+CORE COMPETENCIES 
+ 
+Hardware & Embedded Systems 
+- Microcontroller Platforms: ESP32, ATmega328P, Arduino, Raspberry Pi (hands -on production 
+experience) 
+- Communication Protocols: LoRa mesh networking, WiFi, Bluetooth, UART, SPI, I²C, RS -485 
+- PCB & Circuit Design: Schematic design, PCB layout, prototyping, hardware -software integration, EDA 
+tools 
+- Sensor Integration: Dendrometers, micro tensiometers, soil moisture sensors, environmental monitoring, 
+IMU sensors 
+- Power Management: Battery optimization, solar power integration, ultra -low-power design (<50mA), 
+RTC integration, power budgeting 
+- Measurement & Testing: Handheld CMM (±0.001mm precision), oscilloscopes, multimeters, protocol 
+analyzers, bench tools 
+Embedded Software Development 
+- Languages: C/C++ (primary for embedded), Python, MATLAB 
+- Real -Time Systems: FreeRTOS, real -time data acquisition, interrupt -driven programming, task 
+scheduling, context switching 
+- Edge ML Deployment: TensorFlow Lite, PyTorch Mobile, on -device inference optimization, model 
+compression 
+- Firmware Development: Bootloaders, OTA updates, persistent storage management, SD card 
+integration, EEPROM operations 
+- Version Control & Collaboration: Git/GitHub for embedded team development, documentation 
+practices 
+IoT Architecture & Protocols 
+- Wireless Mesh Networking: LoRa implementation, multi -hop topologies, routing algorithms, mesh 
+network design 
+- Data Telemetry: Real-time sensor data streaming, cloud integration patterns, edge -to-cloud architecture 
+- System Design: Distributed architecture, node synchronization, time -series data buffering, fault tolerance 
+- Data Management: SQL (PostgreSQL, MySQL), time -series database optimization, query performance 
+tuning 
+Data Processing & Analytics 
+- Time -Series Analysis: Sensor data preprocessing, anomaly detection algorithms, trend analysis, pattern 
+recognition 
+- Machine Learning: Lightweight ML models for embedded platforms, edge inference, model 
+optimization for low -power devices 
+- Data Visualization: MATLAB, Matplotlib, Seaborn, Plotly for real -time sensor monitoring and analysis 
+- Signal Processing: ADC optimization, noise filtering, calibration protocols, sensor fusion 
+ 
+WORK EXPERIENCE 
+Northern Arizona University, Flagstaff, AZ, USA 
+Research Associate – Datalogger Development (ECOSAIL Lab) (August 2024 – Present) 
+ 
+KEY ACHIEVEMENT: Designed and engineered production -ready dual -PCB IoT datalogger system for 
+environmental monitoring with 95%+ network reliability and 3+ month autonomous field operation. 
+IoT Hardware & System Architecture: 
+- Designed custom dual -PCB datalogger architecture for precision environmental monitoring, with an 
+ESP32 -based acquisition front -end (12 -bit ADC, 5+ sensor types) and a dedicated aggregation and 
+storage board with SD card and RTC. 
+- Implemented a LoRa RF mesh network achieving 2km+ line -of-sight range across 6 distributed nodes 
+with 95%+ packet delivery rate in remote field conditions. 
+- Optimized power consumption to <50mA average current draw, enabling 3+ months of autonomous 
+solar -battery -powered operation in remote deployments. 
+- Built a sensor validation pipeline using metrology principles to ensure ±1% accuracy across 
+dendrometers, micro tensiometers, and soil moisture sensors. 
+Data Acquisition & Management: 
+- Architected the system to process 50,000+ data points daily at 1 -minute intervals from heterogeneous 
+environmental sensors. 
+- Designed a data pipeline handling 500MB+ weekly sensor data with automated quality checks, 
+preprocessing, and time -series validation before storage. 
+- Implemented robust state management achieving 99.5%+ data consistency across power cycles, network 
+interruptions, and restarts. 
+ 
+
+ 
+Interdisciplinary Collaboration: 
+- Collaborated with a team of 5 researchers (ecologists, climate scientists, engineers) to translate 
+monitoring requirements into embedded system specifications. 
+- Established standardized protocols for data acquisition and validation to support long -term climate 
+change monitoring. 
+- Coordinated with MRTL Lab to align sensor calibration and validation standards for the datalogger 
+platform. 
+Status: System in advanced PCB testing phase, preparing for multi -site deployment across 6 remote monitoring 
+locations. 
+Northern Arizona University, Flagstaff, AZ, USA 
+Research Associate (MRTL Lab) (August 2024 – Present) 
+- Achieved ±0.001mm precision measurements using handheld CMM across 50+ samples, establishing 
+quality assurance protocols for advanced materials research. 
+- Improved measurement accuracy by 15% via systematic calibration procedures for surface profilers and 
+elemental analyzers. 
+- Processed 200+ precision measurements weekly for research validation, ensuring consistency and 
+reliability of metrology data. 
+- Developed metrology standards that support ECOSAIL datalogger sensor validation, linking materials 
+characterization with sensor network reliability. 
+- Led cross -lab efforts to standardize sensor validation and calibration workflows for embedded IoT 
+systems. 
+TATA Consultancy Services, Hyderabad, India 
+Assistant System Engineer – Trainee (July 2021 – August 2022) 
+- Automated 15+ manual reporting processes using SQL Server, reducing report generation time from 
+4 hours to 15 minutes (94% efficiency gain). 
+- Designed normalized schemas for 10,000+ borrower records and 50,000+ transaction entries with 
+strong integrity constraints. 
+- Replaced 25+ Excel -based workflows with SQL -based reports, improving data accessibility for 50+ 
+business users. 
+- Improved query performance by 60% through index tuning and query optimization techniques. 
+ 
+ACADEMIC PROJECTS 
+Embedded Machine Learning for Real -Time Sensor Anomaly Detection | (2024, ECOSAIL Datalogger 
+Support) 
+- Trained lightweight TensorFlow Lite models (50KB –200KB) for anomaly detection on environmental 
+sensor data, optimized for ESP32 deployment. 
+- Achieved 92% precision and 94% recall on edge anomaly detection using 500,000+ labeled sensor 
+datapoints. 
+- Implemented edge inference with <50ms latency, enabling fully on -device anomaly detection with no 
+cloud dependency. 
+- Reduced false positives by 78% via adaptive thresholding based on historical patterns and 
+environmental context. 
+- Integrated as an analysis and alerting layer for the ECOSAIL datalogger pipeline. 
+
+Smart Home IoT Control System with Multi -Protocol Communication | (Bachelor’s Capstone, 2020) 
+- Built an end -to-end IoT control system using Arduino with a MATLAB -based GUI for real -time 
+device management and monitoring. 
+- Implemented WiFi and Bluetooth -based mesh communication to control 5+ smart devices (lights, 
+thermostats, sensors) with ~50ms response time. 
+- Exported the MATLAB UI as a standalone application (<5MB footprint) suitable for lightweight 
+deployments. 
+- Implemented persistent state management achieving 99.5% data consistency across restarts and 
+power cycles. 
+- Demonstrated integration of heterogeneous IoT devices and human -machine interface design 
+fundamentals. 
+Intelligent Web Scraping & Automation Pipeline for Job Optimization | (2024) 
+- Developed a distributed scraping framework in Python using Selenium and BeautifulSoup to process 
+50,000+ job postings daily from 20+ sources. 
+- Achieved 3× speedup (4 hours → 1.5 hours) via 8 concurrent worker threads. 
+- Implemented an 85% -accurate job matching algorithm using 50+ criteria. 
+- Built dashboards for tracking applications, responses, and interviews, reducing time -to-hire by 60%. 
+EDUCATION 
+ 
+Northern Arizona University , Flagstaff, AZ, USA May 2024 
+Master of Science, Computer Science GPA: 3.55/4.0 
+GITAM Deemed to be University , Hyderabad, Telangana, India June 2021 
+Bachelor of Technology, Electrical Electronics and Communication Engineering GPA:8.76/10.0

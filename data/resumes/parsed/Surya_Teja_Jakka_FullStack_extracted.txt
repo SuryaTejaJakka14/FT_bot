@@ -1,0 +1,116 @@
+SURYA TEJA JAKKA 
+sj888@nau.edu | (928) 863 -9423 | https://www.linkedin.com/in/sjakka14/ 
+ 
+OBJECTIVE
+ 
+Full‑stack –oriented engineer with experience building data‑driven applications, automation pipelines, 
+and backend services using Python, SQL, and scripting, plus strong foundations in systems and embedded 
+development. Developed a distributed web scraping and automation platform that processes 50,000+ 
+records per day, performs intelligent job matching on 50+ criteria , and integrates automated email 
+outreach with monitoring dashboards, demonstrating the ability to design and implement end‑to‑end 
+application workflows. At Tata Consultancy Services, automated 15+ reporting workflows and redesigned 
+database schemas for 10,000+ records and 50,000+ transactions , reducing report generation time from 4 
+hours to 15 minutes and improving query performance by 60% , showing strength in backend logic, data 
+modeling, and performance tuning. Brings additional experience from research roles architecting data 
+pipelines and time‑series logging systems for sensor platforms, with attention to reliability, data quality, and 
+long‑running production behavior. Seeking a Full‑Stack or Backend Developer role where strong backend 
+and data skills can be combined with modern web frameworks to deliver reliable, scalable applications. 
+ 
+CORE COMPETENCIES 
+ 
+Languages & Frameworks 
+- Python (automation, data processing, backend scripts) 
+- SQL (SQL Server, PostgreSQL, MySQL) – schema design, complex queries, performance 
+optimization 
+- C/C++ (systems and embedded logic, performance‑sensitive components) 
+- MATLAB (data visualization and interactive UI for control/monitoring) 
+Web, Backend & Automation 
+- HTTP automation with Selenium and BeautifulSoup for large‑scale data collection 
+- Scripted pipelines integrating scraping, filtering, matching, and outbound communication (email 
+automation) 
+- Dashboarding and metrics tracking for applications and user‑level KPIs 
+Databases & Data Modeling 
+- Relational schema design for high‑volume operational data (10,000+ entities, 50,000+ 
+transactions) 
+- Query optimization (indexes, joins, query rewrites) and reporting performance tuning 
+- Time‑series data logging design for 50,000+ sensor readings per day 
+Tools & Practices 
+- Git/GitHub for version control and collaboration 
+- Linux/Windows environments, scripting, and automation workflows 
+- Data visualization (Matplotlib, Seaborn, Plotly, MATLAB) 
+Domain Knowledge 
+- Process automation, reporting systems, job search optimization tools, sensor and telemetry data 
+flows 
+ 
+ 
+
+WORK EXPERIENCE 
+ 
+TATA Consultancy Services, Hyderabad, India 
+Assistant System Engineer – Trainee (July 2021 – August 2022) 
+- Automated 15+ manual reporting processes using SQL Server and scripted logic, reducing report 
+generation time from 4 hours to 15 minutes (94% efficiency gain) and significantly improving 
+internal stakeholder turnaround. 
+- Designed normalized database schemas for 10,000+ borrower records and 50,000+ transaction 
+entries, establishing a clean data model that supports reliable, maintainable backend reporting and 
+analytics. 
+- Refactored 25+ Excel‑based workflows into robust SQL‑backed reports and views, acting 
+effectively as a backend developer for internal analytics applications and improving data 
+accessibility for 50+ management users. 
+- Enhanced query performance by 60% using indexing, join optimization, and query restructuring, 
+demonstrating capability to diagnose and resolve performance bottlenecks in data‑driven backends. 
+Northern Arizona University, Flagstaff, AZ, USA 
+Research Associate – Datalogger Development (ECOSAIL Lab) (August 2024 – Present) 
+- Designed the data ingestion and logging layer for a custom environmental monitoring platform that 
+records 50,000+ time‑series sensor readings per day across 5+ sensor types at 1‑minute intervals. 
+- Defined data structures, logging formats, and retention strategies to support downstream analytics and 
+long‑term field deployments, similar to backend time‑series services handling telemetry. 
+- Implemented data‑quality and consistency routines (sanity checks, missing value handling, timestamp 
+alignment) to ensure reliable analytics from long‑running deployments. 
+- Collaborated with domain experts to convert monitoring requirements into data model and logging 
+specifications, mirroring product and requirements discussions for backend services. 
+Northern Arizona University, Flagstaff, AZ, USA 
+Research Associate (MRTL Lab) (August 2024 – Present) 
+- Built structured workflows for 200+ precision measurements weekly, including data collection, cleaning, 
+and interpretation for advanced materials research. 
+- Improved metrology measurement accuracy by 15% through calibration and data‑driven error analysis, 
+showcasing rigorous handling of measurement and data‑quality issues. 
+- Designed data interpretation frameworks that translate instrument outputs into standardized datasets 
+supporting validation and reporting across labs. 
+ACADEMIC PROJECTS 
+ Intelligent Web Scraping and Automation Pipeline for Job Search Optimization | 2024 
+- Developed a distributed web scraping framework in Python using Selenium and BeautifulSoup, capable 
+of collecting 50,000+ job postings per day from 20+ job boards and company career pages. 
+- Implemented a modular pipeline: crawling, parsing, cleaning, structuring, and storing job postings, 
+effectively acting as a backend ingestion service. 
+- Built an intelligent job matching component comparing 50+ criteria (skills, location, experience, 
+company type) to a profile, achieving ~85% relevance accuracy, emulating a recommendation/ranking 
+backend for applications. 
+- Added an automated email composition and submission system that integrates with the scraped data and 
+sends personalized outreach to 100+ recruiters and hiring managers weekly, demonstrating ability to 
+connect a data pipeline to an outbound application laye r. 
+- Created a monitoring dashboard tracking applications, response rates, and interview invitations, 
+providing visibility into system performance and user outcomes, similar to admin views or internal 
+dashboards. 
+Smart Home IoT Control System ( Arduino + MATLAB ) | 2020 
+- Implemented a smart home control application where Arduino microcontrollers interfaced with a 
+MATLAB‑based graphical UI for real‑time device control and monitoring (lights, thermostats, sensors). 
+- Designed UI logic and communication routines that enabled control of 5+ connected devices with 
+~50ms average response time, mimicking frontend‑backend interactions in a full‑stack system (UI ↔ 
+device layer). 
+- Packaged the MATLAB UI as a standalone application (<5MB footprint) with persistent state 
+management and 99.5% data consistency across restarts, showing experience in shipping a user‑facing 
+application tied to underlying logic and state. 
+Embedded Machine Learning Anomaly Detection Pipeline | 2024 
+- Built a sensor anomaly detection pipeline using TensorFlow Lite on environmental datasets, processing 
+500,000+ labeled datapoints and achieving 92% precision and 94% recall on anomalies. 
+- Designed the feature extraction, model invocation, and output integration steps as a modular component 
+that can plug into a larger telemetry backend or alerting system. 
+- Reduced false positives by 78% with data‑driven threshold tuning, illustrating attention to production 
+behavior and alert noise reduction. 
+EDUCATION 
+ 
+Northern Arizona University , Flagstaff, AZ, USA May 2024 
+Master of Science, Computer Science GPA: 3.55/4.0 
+GITAM Deemed to be University , Hyderabad, Telangana, India June 2021 
+Bachelor of Technology, Electrical Electronics and Communication Engineering GPA:8.76/10.0

@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+venv/
+.vscode/
+.idea/
+*.egg-info/
+dist/
+build/
+data/jobs/
+models/embeddings/*
+models/nlp/*
+*.log
+.DS_Store
