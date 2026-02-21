@@ -281,3 +281,107 @@ class EmbeddingsCreator:
             "embedding_dimension": self.EMBEDDING_DIM,
             "max_sequence_length": self._model.max_seq_length,
         }
+
+    #The next two methods are for job descriptions, which have a slightly different structure than resumes.
+    
+    def build_job_summary_text(
+        self,
+        title: str,
+        required_hard_skills: List[str],
+        nice_to_have_skills: List[str],
+        required_experience_years: float,
+        required_education: str,
+    ) -> str:
+        """
+        Build a text summary of a job description for embedding.
+
+        Combines all job requirements into a single structured paragraph
+        that captures the role's semantic meaning.
+
+        Args:
+            title: Job title (e.g. "Senior Data Scientist")
+            required_hard_skills: Must-have technical skills
+            nice_to_have_skills: Preferred/bonus skills
+            required_experience_years: Minimum years of experience
+            required_education: Education requirement string
+
+        Returns:
+            Summary text ready for embedding
+        """
+        parts = []
+
+        # Title + experience
+        if title:
+            if required_experience_years > 0:
+                parts.append(
+                    f"{title} role requiring {required_experience_years:.1f}"
+                    f" years of experience."
+                )
+            else:
+                parts.append(f"{title} role.")
+
+        # Required skills
+        if required_hard_skills:
+            skills_str = ", ".join(required_hard_skills[:20])
+            parts.append(f"Required technical skills: {skills_str}.")
+
+        # Nice-to-have skills
+        if nice_to_have_skills:
+            preferred_str = ", ".join(nice_to_have_skills[:10])
+            parts.append(f"Preferred skills: {preferred_str}.")
+
+        # Education
+        if required_education:
+            parts.append(f"Education requirement: {required_education}.")
+
+        return " ".join(parts) if parts else "No job information available."
+
+    def create_job_embeddings(
+        self,
+        title: str,
+        required_hard_skills: List[str],
+        nice_to_have_skills: List[str],
+        required_experience_years: float,
+        required_education: str,
+    ) -> dict:
+        """
+        Create all embeddings needed for a JobProfile in one call.
+
+        Returns a dictionary with:
+          - "job_embedding":    np.ndarray shape (384,)
+          - "skills_embeddings": Dict[str, np.ndarray] per-skill vectors
+          - "summary_text":     str used for embedding (for debugging)
+
+        Args:
+            title: Job title
+            required_hard_skills: Must-have skills
+            nice_to_have_skills: Preferred skills
+            required_experience_years: Minimum experience years
+            required_education: Education requirement string
+
+        Returns:
+            Dictionary with job_embedding, skills_embeddings, summary_text
+        """
+        # Build the summary text
+        summary_text = self.build_job_summary_text(
+            title=title,
+            required_hard_skills=required_hard_skills,
+            nice_to_have_skills=nice_to_have_skills,
+            required_experience_years=required_experience_years,
+            required_education=required_education,
+        )
+
+        # Create job-level embedding from summary
+        job_embedding = self.create_text_embedding(summary_text)
+
+        # Deduplicate and embed all skills (required + nice-to-have)
+        all_skills = list(dict.fromkeys(
+            required_hard_skills + nice_to_have_skills
+        ))
+        skills_embeddings = self.create_skills_embeddings(all_skills)
+
+        return {
+            "job_embedding": job_embedding,
+            "skills_embeddings": skills_embeddings,
+            "summary_text": summary_text,
+        }

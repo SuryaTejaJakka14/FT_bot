@@ -36,7 +36,7 @@ class JobRequirementsExtractor:
         "requirements", "required", "qualifications", "must have",
         "must-have", "basic qualifications", "minimum qualifications",
         "what you need", "what we need", "you will need",
-        "technical requirements", "skills required"
+        "technical requirements", "skills required", "education"
     ]
 
     PREFERRED_HEADINGS = [
@@ -188,10 +188,10 @@ class JobRequirementsExtractor:
             )
 
             if is_heading:
-                if is_required:
-                    current_section = "required"
-                elif is_preferred:
+                if is_preferred:
                     current_section = "preferred"
+                elif is_required:
+                    current_section = "required"
                 elif is_responsibility:
                     current_section = "responsibilities"
                 # Don't add the heading line itself
@@ -279,12 +279,13 @@ class JobRequirementsExtractor:
         Extract hard skills from a specific section of the JD.
 
         Reuses your existing SkillsExtractor (Module 1).
+        extract_skills() returns a tuple: (hard_skills, soft_skills)
 
         Args:
             section_text: Text content of one JD section
 
         Returns:
-            List of detected skill names
+            List of detected hard skill names
         """
         if not section_text or not section_text.strip():
             return []
@@ -294,9 +295,10 @@ class JobRequirementsExtractor:
         if result is None:
             return []
 
-        # Get hard skills from the result
-        hard_skills = getattr(result, "hard_skills", [])
+        # Result is a tuple: (hard_skills_list, soft_skills_list)
+        hard_skills = result[0] if isinstance(result, tuple) else []
         return hard_skills if hard_skills else []
+
 
     def _extract_experience_years(self, text: str) -> float:
         """
